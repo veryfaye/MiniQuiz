@@ -1,17 +1,36 @@
-a{
-  color: #9641e5;  
+a {
+  color: #9641e5;
 }
 
-a:hover{
-    color: #7d1dd6;
-}   
+a:hover {
+  color: #7d1dd6;
+}
 
-.btn.btn-sm{
-    background-color: #9641e5;
-    color:#fff;
+.btn.btn-sm {
+  background-color: #9641e5;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+
+/* Hidden Divs that are updated throughout by questions.js */
+#quiz-questions,
+#quiz-end-screen, 
+#check-answer {
+  display: none;
+}
+
+input {
     margin-bottom: 5px;
 }
 
-#btn1, #btn2, #btn3, #btn4{
-    display: none;
+#answer-text{
+    color: dimgray;
+    font-style: italic;
+
+}
+
+/* high score page specific */
+#score-list p:nth-child(odd){
+    background-color: rgb(229, 213, 243);
 }
